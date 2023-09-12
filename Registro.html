@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicacion</title>
+    <link rel="stylesheet" href="EstiloR.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="Index.html" class="enlace">
+            <img src="Imagenes/unicomNF.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="ProductosV.html">Productos</a></li>
+            <li><a href="Ubicacion.html">Ubicacion</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+            <li><a href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <form action="Registro.php" method="POST">
+		<h2>Formulario de Registro</h2>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required>
+
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required>
+
+		<label for="correo">Correo:</label>
+		<input type="email" id="correo" name="correo" required>
+
+		<label for="celular">Celular:</label>
+		<input type="tel" id="celular" name="celular" required>
+
+		<label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+  
+
+        <p></p>
+		<label for="password">Contraseña:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="submit" value="Registrar">
+
+
+	</form>
+
+    <footer id = "Pie"> 
+        <h3>Contacto</h3>
+         <p>Correo: alma.munoz@unicomgdl.com.mx<br>Telefono: 3336678810</p>
+    </footer>
+    
+</body>
+
+</html>
