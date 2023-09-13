@@ -8,7 +8,7 @@ $imagen = $_POST['imagen'];
 $sql = mysqli_query($con, "INSERT INTO productos(id, nombrep, precio, imagen) VALUES (0,'$nombrep','$precio','$imagen')");
 
 
-    header("location:http://localhost/Jonathan/Admin.php");
+    header("location: Admin.php");
 
 
 ?>
